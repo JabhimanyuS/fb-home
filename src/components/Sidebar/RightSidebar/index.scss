@@ -1,0 +1,39 @@
+.freind-requests {
+    min-width: 300px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+
+    .heading {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .name {
+        color: #385898;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .request-item {
+        margin-bottom: 15px;
+    }
+
+    .request-item button {
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 5px;
+    }
+
+    .mutual-count {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+}

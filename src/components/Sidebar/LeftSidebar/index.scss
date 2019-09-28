@@ -1,0 +1,29 @@
+.sidebar-items {
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+    img {
+        height: 15px;
+    }
+
+    span {
+        font-weight: 300;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    &:first-child span {
+        font-weight: 500;
+    }
+
+    .profile-image {
+        border-radius: 50%;
+        height: 25px;;
+    }
+}
+
+.category {
+    margin: 25px 0 10px;
+}

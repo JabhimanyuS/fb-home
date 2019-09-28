@@ -1,0 +1,39 @@
+.sections {
+    padding-top: 70px;
+
+    .sidebar {
+        &.left {
+            padding: 0 2% 0 15% !important;
+
+            @media screen and (min-width:768px) and (max-width: 1200px) {
+                padding: 0 2% !important;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .left-sidebar-wrapper, .right-sidebar-wrapper {
+        position: fixed;
+    }
+
+    .posts-container {
+
+        .loader {
+            opacity: 0;
+
+            &.is-loading {
+                opacity: 1;
+            }
+        }
+        h2 {
+            text-align: center;
+            margin: 10px 0 0;
+            height: 50px;
+            font-size: 22px;
+            font-weight: 300;
+        }
+    }
+}
